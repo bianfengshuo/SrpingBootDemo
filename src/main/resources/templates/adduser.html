@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>添加用户</title>
+</head>
+<body>
+<H1 align="center">添加用户</H1>
+<form action="/save_user" method="post">
+    &nbsp;&nbsp;&nbsp;&nbsp; ID： <input type="text" th:value="${id}" name="id"><br/>
+    用户名： <input type="text" th:value="${username}" name="username"><br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;密码：  <input type="text" th:value="${password}" name="password"><br/>
+    <button>保存</button>
+</form>
+</body>
+</html>
