@@ -24,4 +24,10 @@ public class DemoController {
         model.addAttribute("info", "我是一个爱学习的好青年");
         return "index.html";
     }
+
+    @RequestMapping("/say")
+    @ResponseBody
+    public String say(){
+        return " Hello 你好!!!";
+    }
 }
