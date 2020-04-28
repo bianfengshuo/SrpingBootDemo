@@ -25,7 +25,7 @@ public class DemoController {
         return "index.html";
     }
 
-    @RequestMapping("/say")
+    @RequestMapping("/say111")
     @ResponseBody
     public String say(){
         return " Hello 你好!!!";
